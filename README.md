@@ -101,12 +101,11 @@ REACT_APP_API_URL=https://your-ngrok-url.ngrok.io
 
 ## Screenshots
 
-### Homepage
-![Homepage](https://github.com/MeilingHe/movie-api-fullstack/blob/main/screenshots/home.png?raw=true)
+### Homepage  
+![Homepage](https://raw.githubusercontent.com/MeilingHe/movie-api-fullstack/main/screenshots/home.png)
 
-### Trailer
-![Trailer](https://github.com/MeilingHe/movie-api-fullstack/blob/main/screenshots/trailer.png?raw=true)
+### Trailer  
+![Trailer](https://raw.githubusercontent.com/MeilingHe/movie-api-fullstack/main/screenshots/trailer.png)
 
-
-### Review Section
-![Review](https://github.com/MeilingHe/movie-api-fullstack/blob/main/screenshots/reviews.png?raw=true)
+### Review Section  
+![Review](https://raw.githubusercontent.com/MeilingHe/movie-api-fullstack/main/screenshots/reviews.png)
