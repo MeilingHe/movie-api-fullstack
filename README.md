@@ -83,7 +83,6 @@ npm start
 
 You must set the backend base URL via .env:
 
-env
 ```env
 REACT_APP_API_URL=https://your-ngrok-url.ngrok.io
 ```
