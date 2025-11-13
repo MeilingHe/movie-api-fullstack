@@ -56,29 +56,31 @@ I followed the course to build the core structure, and made some adjustments inc
 ---
 
 
-##  Run the Project Locally
+## Run the Project Locally
 
 ### Backend (Spring Boot)
 
-
+```bash
 cd backend
 ./mvnw spring-boot:run
+Make sure to configure application.properties or use a .env file with:
 
-Make sure to configure application.properties or use a .env with:
-
-MONGO_DATABASE=your-db
-MONGO_USER=your-user
-MONGO_PASSWORD=your-password
+env
+Copy code
+MONGO_DATABASE=your-db  
+MONGO_USER=your-user  
+MONGO_PASSWORD=your-password  
 MONGO_CLUSTER=your-cluster-url
-
-### Frontend (React)
-
+Frontend (React)
+bash
+Copy code
 cd frontend
 npm install
 npm start
-
 You must set the backend base URL via .env:
 
+env
+Copy code
 REACT_APP_API_URL=https://your-ngrok-url.ngrok.io
 
 
