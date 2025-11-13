@@ -55,27 +55,12 @@ I followed the course to build the core structure, and made some adjustments inc
 
 ---
 
-##  Project Structure
-
-movie-api-fullstack/
-├── backend/ # Spring Boot REST API
-│ ├── src/
-│ ├── pom.xml
-│ └── application.properties / .env
-├── frontend/ # React frontend (SPA)
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│ └── .env
-
-
----
 
 ##  Run the Project Locally
 
 ### Backend (Spring Boot)
 
-```bash
+
 cd backend
 ./mvnw spring-boot:run
 
@@ -88,7 +73,6 @@ MONGO_CLUSTER=your-cluster-url
 
 ### Frontend (React)
 
-```bash
 cd frontend
 npm install
 npm start
